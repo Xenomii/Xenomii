@@ -1,6 +1,4 @@
 👋 Hi, I’m @Xenomii<br/>
-🎓 I’m currently studying at Singapore Institute of Technology<br/>
-📜 Pursuing a Degree in Information and Communications Technology (Information Security)<br/>
 📫 Here is how to contact me: voltzxp@gmail.com<br/>
 
 <h3 align="left">Languages and Tools:</h3>

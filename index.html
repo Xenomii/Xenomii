@@ -31,7 +31,12 @@
       border-bottom: 1px dashed #00ff99;
       padding-bottom: 4px;
       margin-top: 40px;
-      font-family: 'JetBrains Mono', monospace;
+    }
+
+    h3 {
+      color: #00ff99;
+      font-size: 1.1em;
+      margin-bottom: 10px;
     }
 
     ul {
@@ -61,7 +66,6 @@
       letter-spacing: .1em;
       animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
       font-size: 1.4em;
-      font-family: 'JetBrains Mono', monospace;
     }
 
     @keyframes typing {
@@ -117,48 +121,49 @@
       text-decoration: underline;
     }
 
+    /* SKILL BLOCK STYLES */
     .skills-sections {
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
       margin-top: 15px;
     }
-    
+
     .skill-block {
-      flex: 1;
-      min-width: 220px;
+      flex: 1 1 260px;
       background-color: #0f1313;
       border: 1px dashed #33ff33;
       padding: 15px;
       border-radius: 6px;
     }
-    
-    .skill-block h3 {
-      color: #00ff99;
-      font-size: 1.1em;
-      margin-bottom: 10px;
-    }
-    
+
     .skill-block ul {
       list-style: none;
       padding-left: 0;
       margin: 0;
     }
-    
+
     .skill-block li {
       margin-bottom: 8px;
       display: flex;
       align-items: center;
-    }
-    
-    .skill-block li i {
-      margin-right: 8px;
+      font-size: 0.95em;
     }
 
+    .skill-block li img,
+    .skill-block li i {
+      margin-right: 8px;
+      width: 20px;
+      height: 20px;
+    }
 
     @media (max-width: 600px) {
       .container {
         padding: 15px;
+      }
+
+      .skills-sections {
+        flex-direction: column;
       }
     }
   </style>
@@ -176,43 +181,57 @@
       <div class="skill-block">
         <h3>Programming & Scripting</h3>
         <ul>
-          <li><i class="fab fa-python"></i> Python</li>
-          <li><i class="fab fa-java"></i> Java</li>
-          <li><i class="fas fa-terminal"></i> Bash / PowerShell</li>
-          <li><i class="fab fa-js-square"></i> JavaScript</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> Python</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"> Java</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"> JavaScript / TypeScript</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"> Bash / PowerShell</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> C# / .NET</li>
         </ul>
       </div>
-    
+
       <div class="skill-block">
-        <h3>Security Tools & Pentesting</h3>
+        <h3>Web & Mobile Development</h3>
         <ul>
-          <li><i class="fas fa-bug"></i> Burp Suite / ZAP</li>
-          <li><i class="fas fa-network-wired"></i> Nmap / Metasploit</li>
-          <li><i class="fas fa-search"></i> Secure Code Review</li>
-          <li><i class="fas fa-mask"></i> Red Team / OSINT</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"> HTML / CSS / Bootstrap / Tailwind</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"> React / React Native / Ionic / Cordova</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg"> PHP</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"> Node.js</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg"> Flask</li>
         </ul>
       </div>
-    
+
       <div class="skill-block">
-        <h3>Infrastructure & DevOps</h3>
+        <h3>Cybersecurity & Tools</h3>
         <ul>
-          <li><i class="fab fa-docker"></i> Docker / Vagrant</li>
-          <li><i class="fab fa-git-alt"></i> Git / GitHub Actions</li>
-          <li><i class="fab fa-linux"></i> Linux (Kali, Ubuntu)</li>
-          <li><i class="fab fa-windows"></i> Windows</li>
+          <li><i class="fas fa-bug"></i> Burp Suite / OWASP ZAP</li>
+          <li><i class="fas fa-network-wired"></i> Nmap / Nessus / Metasploit</li>
+          <li><i class="fas fa-eye"></i> Wireshark / BloodHound</li>
+          <li><i class="fas fa-code"></i> Secure Code Review / OSINT / Red Team</li>
         </ul>
       </div>
-    
+
       <div class="skill-block">
-        <h3>Databases & Backend</h3>
+        <h3>DevOps & Infrastructure</h3>
         <ul>
-          <li><i class="fas fa-database"></i> MySQL</li>
-          <li><i class="fas fa-database"></i> MongoDB</li>
-          <li><i class="fas fa-database"></i> SQLite</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"> Docker / Vagrant</li>
+          <li><img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"> Jenkins / GitHub Actions</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"> Linux / Windows</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg"> NGINX</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> Git</li>
+        </ul>
+      </div>
+
+      <div class="skill-block">
+        <h3>Data & Analytics</h3>
+        <ul>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"> MySQL / MongoDB</li>
+          <li><img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg"> Pandas</li>
+          <li><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"> Scikit-learn</li>
+          <li><img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"> TensorFlow</li>
+          <li><img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"> Elasticsearch / Grafana</li>
         </ul>
       </div>
     </div>
-
 
     <h2>> Education</h2>
     <p><strong>Singapore Institute of Technology</strong><br>
@@ -224,7 +243,6 @@
     <p>Professional Scrum Master I — <span class="date">15 May 2023</span></p>
 
     <h2>> Career History</h2>
-
     <p><strong>Associate Security Consultant – Firmus</strong><br>
     <span class="date">Jul 2025 – Present</span></p>
     <ul>
@@ -232,6 +250,7 @@
       <li>Perform secure code reviews, red team operations, and social engineering campaigns to identify high-impact vulnerabilities.</li>
       <li>Assist with pre- and post-sales activities such as proposal writing, technical presentations, and product demonstrations.</li>
       <li>Support project delivery by advising junior consultants and coordinating with cross-functional teams.</li>
+      <li>Report directly to the Technical Director and ensure timely completion of deliverables.</li>
     </ul>
 
     <p><strong>Security Intern – Firmus</strong><br>
@@ -250,7 +269,6 @@
     </ul>
 
     <h2>> Projects</h2>
-
     <p><strong>Blockchain Chain of Custody</strong> — SIT <span class="date">(May–Jul 2022)</span></p>
     <ul>
       <li>Developed a Docker-integrated blockchain system to verify forensic toolchain integrity.</li>

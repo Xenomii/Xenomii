@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **voltzxp@gmail.com**
 
-- 📄 Resume is located [here](https://xenomii.github.io/Xenomii/)!
+- 📄 Resume is located [here](https://xenomii.github.io/Xenomii/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

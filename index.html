@@ -103,6 +103,28 @@
       text-decoration: underline;
     }
 
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    .skills-column {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .skills-column li {
+      list-style: none;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+    }
+
+    .skills-column li i {
+      margin-right: 8px;
+    }
+
     @media (max-width: 600px) {
       .container {
         padding: 15px;
@@ -119,18 +141,22 @@
        <span class="highlight">Location:</span> Blk 742 Bedok Reservoir Rd S470742</p>
 
     <h2>> Technical Skills</h2>
-    <ul>
-      <li><i class="fab fa-java"></i> Java</li>
-      <li><i class="fab fa-python"></i> Python</li>
-      <li><i class="fab fa-docker"></i> Docker</li>
-      <li><i class="fas fa-server"></i> Vagrant</li>
-      <li><i class="fas fa-database"></i> MySQL</li>
-      <li><i class="fas fa-leaf"></i> MongoDB</li>
-      <li><i class="fas fa-spider"></i> Burp Suite</li>
-      <li><i class="fas fa-shield-alt"></i> Nessus</li>
-      <li><i class="fab fa-windows"></i> Windows</li>
-      <li><i class="fab fa-linux"></i> Linux</li>
-    </ul>
+    <div class="skills-grid">
+      <ul class="skills-column">
+        <li><i class="fab fa-java"></i> Java</li>
+        <li><i class="fab fa-python"></i> Python</li>
+        <li><i class="fab fa-docker"></i> Docker</li>
+        <li><i class="fas fa-server"></i> Vagrant</li>
+        <li><i class="fas fa-database"></i> MySQL</li>
+      </ul>
+      <ul class="skills-column">
+        <li><i class="fas fa-leaf"></i> MongoDB</li>
+        <li><i class="fas fa-spider"></i> Burp Suite</li>
+        <li><i class="fas fa-shield-alt"></i> Nessus</li>
+        <li><i class="fab fa-windows"></i> Windows</li>
+        <li><i class="fab fa-linux"></i> Linux</li>
+      </ul>
+    </div>
 
     <h2>> Education</h2>
     <p><strong>Singapore Institute of Technology</strong><br>

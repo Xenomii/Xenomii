@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Aidil Irfan - Resume</title>
+  <script src="https://kit.fontawesome.com/99e528480e.js" crossorigin="anonymous"></script>
   <style>
     body {
       background-color: #0b0f0f;
@@ -75,6 +76,24 @@
       font-size: 0.9em;
     }
 
+    .download-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      color: #0b0f0f;
+      background-color: #66ff66;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #33cc33;
+    }
+
     a {
       color: #66ffe0;
       text-decoration: none;
@@ -99,10 +118,18 @@
        <span class="highlight">Phone:</span> 8793 3915<br>
        <span class="highlight">Location:</span> Blk 742 Bedok Reservoir Rd S470742</p>
 
-    <h2>> Key Skills</h2>
+    <h2>> Technical Skills</h2>
     <ul>
-      <li>Java</li><li>Python</li><li>C#</li><li>Docker</li><li>Vagrant</li>
-      <li>MySQL</li><li>MongoDB</li><li>BurpSuite</li><li>Nessus</li>
+      <li><i class="fab fa-java"></i> Java</li>
+      <li><i class="fab fa-python"></i> Python</li>
+      <li><i class="fab fa-docker"></i> Docker</li>
+      <li><i class="fas fa-server"></i> Vagrant</li>
+      <li><i class="fas fa-database"></i> MySQL</li>
+      <li><i class="fas fa-leaf"></i> MongoDB</li>
+      <li><i class="fas fa-spider"></i> Burp Suite</li>
+      <li><i class="fas fa-shield-alt"></i> Nessus</li>
+      <li><i class="fab fa-windows"></i> Windows</li>
+      <li><i class="fab fa-linux"></i> Linux</li>
     </ul>
 
     <h2>> Education</h2>
@@ -118,32 +145,36 @@
     <p><strong>Associate Security Consultant – Firmus</strong><br>
     Jan 2023 – Dec 2023</p>
     <ul>
-      <li>Identified internal control weaknesses and proposed mitigations.</li>
-      <li>Conducted risk assessments and recommended security solutions.</li>
+      <li>Conducted vulnerability assessments and penetration tests on web applications and infrastructure.</li>
+      <li>Analyzed security architecture and provided recommendations to clients for mitigation.</li>
+      <li>Documented findings and presented technical reports to C-suite stakeholders.</li>
     </ul>
 
     <p><strong>Security Analyst – Singapore Airlines</strong><br>
     Sep 2017 – Nov 2017</p>
     <ul>
-      <li>Monitored secure data access and flagged anomalies.</li>
-      <li>Analyzed logs to detect malicious activity.</li>
+      <li>Monitored SIEM alerts and flagged potential threats in real-time environments.</li>
+      <li>Performed log analysis to detect signs of compromise and supported incident response.</li>
     </ul>
 
     <h2>> Projects</h2>
     <p><strong>Blockchain Chain of Custody</strong> — SIT (May–Jul 2022)</p>
     <ul>
-      <li>Integrated Dockerized tools with blockchain forensic system.</li>
-      <li>Executed penetration testing and reported vulnerabilities.</li>
+      <li>Developed a Docker-integrated blockchain system to verify forensic toolchain integrity.</li>
+      <li>Implemented automated vulnerability scanning across blockchain nodes.</li>
+      <li>Produced comprehensive risk documentation for academic and industrial review.</li>
     </ul>
+
     <p><strong>Robotics @ Library Cafe</strong> — NYP (Dec 2017–Feb 2018)</p>
     <ul>
-      <li>Enhanced encryption algorithm and input validation in mobile app.</li>
+      <li>Improved cryptographic protocols in a mobile app connected to service robots.</li>
+      <li>Secured communication channels between IoT devices and back-end infrastructure.</li>
     </ul>
 
     <div class="qr">
       <img src="qr_resume_download.png" alt="Download Resume QR Code">
       <p>Scan to download PDF resume</p>
-      <p><a href="https://xenomii.github.io/Xenomii/Job_Resume.pdf" target="_blank">Or click to open resume</a></p>
+      <a class="download-button" href="https://xenomii.github.io/Xenomii/Job_Resume.pdf" target="_blank">Download PDF Resume</a>
     </div>
   </div>
 </body>

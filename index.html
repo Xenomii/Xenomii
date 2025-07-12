@@ -1,103 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Aidil Irfan - Resume</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      background-color: #0b0f0f;
+      color: #33ff33;
+      font-family: 'Courier New', Courier, monospace;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
       margin: 40px auto;
-      max-width: 800px;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #333;
+      padding: 20px 30px;
+      background: #101010;
+      border: 1px solid #33ff33;
+      box-shadow: 0 0 12px #00ff00;
+      border-radius: 6px;
     }
-    h1, h2 {
-      color: #004080;
+
+    h2 {
+      color: #00ff99;
+      border-bottom: 1px dashed #00ff99;
+      padding-bottom: 4px;
+      margin-top: 30px;
     }
-    h1 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 10px;
-    }
+
     ul {
       padding-left: 20px;
     }
-    section {
-      margin-bottom: 30px;
+
+    .highlight {
+      color: #00ffaa;
+    }
+
+    .typewriter {
+      overflow: hidden;
+      border-right: .15em solid #33ff33;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .1em;
+      animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
+      font-size: 1.4em;
+      margin-bottom: 20px;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+      from, to { border-color: transparent }
+      50% { border-color: #33ff33 }
+    }
+
+    .qr {
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .qr img {
+      width: 150px;
+      height: 150px;
+    }
+
+    .qr p {
+      margin-top: 10px;
+      color: #66ff66;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: #66ffe0;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 15px;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <div class="typewriter">> Initializing profile: Aidil Irfan</div>
 
-  <h1>Aidil Irfan</h1>
-  <p>Email: voltzxp@gmail.com<br>
-     Phone: 8793 3915<br>
-     Address: Blk 742 Bedok Reservoir Rd S470742</p>
+    <p><span class="highlight">Email:</span> <a href="mailto:voltzxp@gmail.com">voltzxp@gmail.com</a><br>
+       <span class="highlight">Phone:</span> 8793 3915<br>
+       <span class="highlight">Location:</span> Blk 742 Bedok Reservoir Rd S470742</p>
 
-  <section>
-    <h2>Key Skills</h2>
+    <h2>> Key Skills</h2>
     <ul>
-      <li>Java</li>
-      <li>Python</li>
-      <li>C#</li>
-      <li>Docker</li>
-      <li>Vagrant</li>
-      <li>MySQL</li>
-      <li>MongoDB</li>
-      <li>BurpSuite</li>
-      <li>Nessus</li>
+      <li>Java</li><li>Python</li><li>C#</li><li>Docker</li><li>Vagrant</li>
+      <li>MySQL</li><li>MongoDB</li><li>BurpSuite</li><li>Nessus</li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Education</h2>
+    <h2>> Education</h2>
     <p><strong>Singapore Institute of Technology</strong><br>
-       Bachelor of Engineering, Information & Communications Technology (Information Security)<br>
-       Graduated 2024</p>
+    B.Eng. ICT (Information Security), 2024</p>
     <p><strong>Nanyang Polytechnic</strong><br>
-       Diploma in Cyber Security & Forensics<br>
-       Graduated 2017</p>
-  </section>
+    Diploma in Cyber Security & Forensics, 2017</p>
 
-  <section>
-    <h2>Certifications</h2>
-    <p>Professional Scrum Master 1 – 15 May 2023</p>
-  </section>
+    <h2>> Certifications</h2>
+    <p>Professional Scrum Master I — 15 May 2023</p>
 
-  <section>
-    <h2>Career History</h2>
-    <p><strong>Associate Security Consultant</strong> – Firmus<br>
+    <h2>> Career History</h2>
+    <p><strong>Associate Security Consultant – Firmus</strong><br>
     Jan 2023 – Dec 2023</p>
     <ul>
-      <li>Reported internal control issues and gave recommendations to mitigate risks.</li>
-      <li>Performed risk assessments and proposed countermeasures to enhance security.</li>
+      <li>Identified internal control weaknesses and proposed mitigations.</li>
+      <li>Conducted risk assessments and recommended security solutions.</li>
     </ul>
 
-    <p><strong>Security Analyst</strong> – Singapore Airlines<br>
+    <p><strong>Security Analyst – Singapore Airlines</strong><br>
     Sep 2017 – Nov 2017</p>
     <ul>
-      <li>Monitored data file usage and access to protect secure information.</li>
-      <li>Analyzed logs for anomalies and potential intrusions.</li>
+      <li>Monitored secure data access and flagged anomalies.</li>
+      <li>Analyzed logs to detect malicious activity.</li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Projects</h2>
-    <p><strong>Blockchain Based Chain of Custody</strong><br>
-    Singapore Institute of Technology, May 2022 – July 2022</p>
+    <h2>> Projects</h2>
+    <p><strong>Blockchain Chain of Custody</strong> — SIT (May–Jul 2022)</p>
     <ul>
-      <li>Integrated forensic tools via Docker for blockchain-based evidence analysis.</li>
-      <li>Performed security testing on web and blockchain applications.</li>
+      <li>Integrated Dockerized tools with blockchain forensic system.</li>
+      <li>Executed penetration testing and reported vulnerabilities.</li>
     </ul>
-
-    <p><strong>Robotics @ Library Cafe</strong><br>
-    Nanyang Polytechnic, Dec 2017 – Feb 2018</p>
+    <p><strong>Robotics @ Library Cafe</strong> — NYP (Dec 2017–Feb 2018)</p>
     <ul>
-      <li>Improved mobile app security by enhancing encryption algorithms.</li>
-      <li>Validated and sanitized user input to prevent web vulnerabilities.</li>
+      <li>Enhanced encryption algorithm and input validation in mobile app.</li>
     </ul>
-  </section>
 
+    <div class="qr">
+      <img src="qr_resume_download.png" alt="Download Resume QR Code">
+      <p>Scan to download PDF resume</p>
+      <p><a href="https://xenomii.github.io/Xenomii/Job_Resume.pdf" target="_blank">Or click to open resume</a></p>
+    </div>
+  </div>
 </body>
 </html>

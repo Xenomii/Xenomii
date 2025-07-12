@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Aidil Irfan - Resume</title>
   <script src="https://kit.fontawesome.com/99e528480e.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
   <style>
     body {
       background-color: #0b0f0f;
       color: #33ff33;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: 'Fira Sans', sans-serif;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
 
     .container {
@@ -28,26 +30,38 @@
       color: #00ff99;
       border-bottom: 1px dashed #00ff99;
       padding-bottom: 4px;
-      margin-top: 30px;
+      margin-top: 40px;
+      font-family: 'Courier New', monospace;
     }
 
     ul {
       padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
 
     .highlight {
       color: #00ffaa;
     }
 
+    .date {
+      color: #88ff88;
+      font-size: 0.95em;
+    }
+
     .typewriter {
       overflow: hidden;
       border-right: .15em solid #33ff33;
       white-space: nowrap;
-      margin: 0 auto;
+      margin: 0 auto 20px auto;
       letter-spacing: .1em;
       animation: typing 3s steps(30, end), blink-caret .75s step-end infinite;
       font-size: 1.4em;
-      margin-bottom: 20px;
+      font-family: 'Courier New', monospace;
     }
 
     @keyframes typing {
@@ -61,7 +75,7 @@
     }
 
     .qr {
-      margin-top: 30px;
+      margin-top: 40px;
       text-align: center;
     }
 
@@ -160,47 +174,49 @@
 
     <h2>> Education</h2>
     <p><strong>Singapore Institute of Technology</strong><br>
-    B.Eng. ICT (Information Security), 2024</p>
+    B.Eng. ICT (Information Security), <span class="date">2024</span></p>
     <p><strong>Nanyang Polytechnic</strong><br>
-    Diploma in Cyber Security & Forensics, 2017</p>
+    Diploma in Cyber Security & Forensics, <span class="date">2017</span></p>
+
+    <h2>> Certifications</h2>
+    <p>Professional Scrum Master I — <span class="date">15 May 2023</span></p>
 
     <h2>> Career History</h2>
-    
+
     <p><strong>Associate Security Consultant – Firmus</strong><br>
-    Jul 2025 – Present</p>
+    <span class="date">Jul 2025 – Present</span></p>
     <ul>
-      <li>Execute VAPT projects, including Web, Mobile, Network, Wireless, and Host-based assessments across various client environments.</li>
-      <li>Perform secure code reviews, red team exercises, and social engineering simulations to identify and report exploitable vulnerabilities.</li>
-      <li>Support pre- and post-sales engagements with proposal development, technical presentations, and security solution demos.</li>
-      <li>Provide technical and advisory support to junior consultants on security methodologies and project execution.</li>
+      <li>Execute VAPT projects including Web, Mobile, Network, Wireless, and Host-based assessments across diverse environments.</li>
+      <li>Perform secure code reviews, red team operations, and social engineering campaigns to identify high-impact vulnerabilities.</li>
+      <li>Assist with pre- and post-sales activities such as proposal writing, technical presentations, and product demonstrations.</li>
+      <li>Support project delivery by advising junior consultants and coordinating with cross-functional teams.</li>
     </ul>
-    
+
     <p><strong>Security Intern – Firmus</strong><br>
-    Jan 2023 – Dec 2023</p>
+    <span class="date">Jan 2023 – Dec 2023</span></p>
     <ul>
-      <li>Assisted in vulnerability assessments, internal control audits, and basic penetration tests for client organizations.</li>
-      <li>Collaborated with consultants on risk modeling and created detailed reports for presentation to clients.</li>
+      <li>Contributed to web application and network security assessments under the guidance of senior consultants.</li>
+      <li>Helped prepare technical documentation and vulnerability reports for client presentations.</li>
       <li>Gained hands-on experience with industry-standard tools and methodologies in offensive security.</li>
     </ul>
-    
+
     <p><strong>Security Analyst – Singapore Airlines</strong><br>
-    Sep 2017 – Nov 2017</p>
+    <span class="date">Sep 2017 – Nov 2017</span></p>
     <ul>
-      <li>Monitored security systems for anomalies and escalated potential threats for further investigation.</li>
-      <li>Conducted log analysis and supported incident response during early-stage threat detection.</li>
+      <li>Monitored SIEM alerts and flagged potential threats in real-time environments.</li>
+      <li>Performed log analysis to detect signs of compromise and supported incident response.</li>
     </ul>
 
-
-
     <h2>> Projects</h2>
-    <p><strong>Blockchain Chain of Custody</strong> — SIT (May–Jul 2022)</p>
+
+    <p><strong>Blockchain Chain of Custody</strong> — SIT <span class="date">(May–Jul 2022)</span></p>
     <ul>
       <li>Developed a Docker-integrated blockchain system to verify forensic toolchain integrity.</li>
       <li>Implemented automated vulnerability scanning across blockchain nodes.</li>
       <li>Produced comprehensive risk documentation for academic and industrial review.</li>
     </ul>
 
-    <p><strong>Robotics @ Library Cafe</strong> — NYP (Dec 2017–Feb 2018)</p>
+    <p><strong>Robotics @ Library Cafe</strong> — NYP <span class="date">(Dec 2017–Feb 2018)</span></p>
     <ul>
       <li>Improved cryptographic protocols in a mobile app connected to service robots.</li>
       <li>Secured communication channels between IoT devices and back-end infrastructure.</li>

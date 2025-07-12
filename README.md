@@ -7,7 +7,7 @@
 
 - 📫 How to reach me **voltzxp@gmail.com**
 
-- 📄 Know about my experiences [https://1drv.ms/b/c/aa2481a399afcc48/EclcM6sZLmFNqr_IKcweOvcBLm9j-IhXKUFo_yaWmiUvCA?e=x2BKKP](https://1drv.ms/b/c/aa2481a399afcc48/EclcM6sZLmFNqr_IKcweOvcBLm9j-IhXKUFo_yaWmiUvCA?e=x2BKKP)
+- 📄 Resume is located [here](https://xenomii.github.io/Xenomii/)!
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

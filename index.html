@@ -117,27 +117,44 @@
       text-decoration: underline;
     }
 
-    .skills-grid {
+    .skills-sections {
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
+      margin-top: 15px;
     }
-
-    .skills-column {
+    
+    .skill-block {
       flex: 1;
-      min-width: 200px;
+      min-width: 220px;
+      background-color: #0f1313;
+      border: 1px dashed #33ff33;
+      padding: 15px;
+      border-radius: 6px;
     }
-
-    .skills-column li {
+    
+    .skill-block h3 {
+      color: #00ff99;
+      font-size: 1.1em;
+      margin-bottom: 10px;
+    }
+    
+    .skill-block ul {
       list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    
+    .skill-block li {
       margin-bottom: 8px;
       display: flex;
       align-items: center;
     }
-
-    .skills-column li i {
+    
+    .skill-block li i {
       margin-right: 8px;
     }
+
 
     @media (max-width: 600px) {
       .container {
@@ -155,22 +172,47 @@
        <span class="highlight">Location:</span> Blk 742 Bedok Reservoir Rd S470742</p>
 
     <h2>> Technical Skills</h2>
-    <div class="skills-grid">
-      <ul class="skills-column">
-        <li><i class="fab fa-java"></i> Java</li>
-        <li><i class="fab fa-python"></i> Python</li>
-        <li><i class="fab fa-docker"></i> Docker</li>
-        <li><i class="fas fa-server"></i> Vagrant</li>
-        <li><i class="fas fa-database"></i> MySQL</li>
-      </ul>
-      <ul class="skills-column">
-        <li><i class="fas fa-leaf"></i> MongoDB</li>
-        <li><i class="fas fa-spider"></i> Burp Suite</li>
-        <li><i class="fas fa-shield-alt"></i> Nessus</li>
-        <li><i class="fab fa-windows"></i> Windows</li>
-        <li><i class="fab fa-linux"></i> Linux</li>
-      </ul>
+    <div class="skills-sections">
+      <div class="skill-block">
+        <h3>Programming & Scripting</h3>
+        <ul>
+          <li><i class="fab fa-python"></i> Python</li>
+          <li><i class="fab fa-java"></i> Java</li>
+          <li><i class="fas fa-terminal"></i> Bash / PowerShell</li>
+          <li><i class="fab fa-js-square"></i> JavaScript</li>
+        </ul>
+      </div>
+    
+      <div class="skill-block">
+        <h3>Security Tools & Pentesting</h3>
+        <ul>
+          <li><i class="fas fa-bug"></i> Burp Suite / ZAP</li>
+          <li><i class="fas fa-network-wired"></i> Nmap / Metasploit</li>
+          <li><i class="fas fa-search"></i> Secure Code Review</li>
+          <li><i class="fas fa-mask"></i> Red Team / OSINT</li>
+        </ul>
+      </div>
+    
+      <div class="skill-block">
+        <h3>Infrastructure & DevOps</h3>
+        <ul>
+          <li><i class="fab fa-docker"></i> Docker / Vagrant</li>
+          <li><i class="fab fa-git-alt"></i> Git / GitHub Actions</li>
+          <li><i class="fab fa-linux"></i> Linux (Kali, Ubuntu)</li>
+          <li><i class="fab fa-windows"></i> Windows</li>
+        </ul>
+      </div>
+    
+      <div class="skill-block">
+        <h3>Databases & Backend</h3>
+        <ul>
+          <li><i class="fas fa-database"></i> MySQL</li>
+          <li><i class="fas fa-database"></i> MongoDB</li>
+          <li><i class="fas fa-database"></i> SQLite</li>
+        </ul>
+      </div>
     </div>
+
 
     <h2>> Education</h2>
     <p><strong>Singapore Institute of Technology</strong><br>
